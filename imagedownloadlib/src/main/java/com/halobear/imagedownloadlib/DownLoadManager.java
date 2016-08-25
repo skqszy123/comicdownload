@@ -85,7 +85,7 @@ public class DownLoadManager {
             connection.setConnectTimeout(6000); //超时设置
             connection.setDoInput(true);
             connection.setUseCaches(false); //设置不使用缓存
-            connection.addRequestProperty("Referer","http://m.dmzj.com/");
+            connection.addRequestProperty("Referer","http://m.ikanman.com");
             InputStream inputStream=connection.getInputStream();
             bitmap= BitmapFactory.decodeStream(inputStream);
             inputStream.close();
